@@ -1,6 +1,7 @@
 #!/usr/bin/python3.6
 
 from parse import *
+from calc import *
 
 tab = parse_all()
-print(tab)
+main_loop(tab, 0.001)
