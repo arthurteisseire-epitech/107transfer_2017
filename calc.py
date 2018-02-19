@@ -18,6 +18,6 @@ def main_loop(tab, step):
             num = calc_op(tab[i], x)
             den = calc_op(tab[i + 1], x)
             res *= my_div(num, den)
-            print("{0:.3f} -> {1:.5f}".format(x, res))
+        print("{0:.3g} -> {1:.5f}".format(x, res))
         x += step
     return (res)
