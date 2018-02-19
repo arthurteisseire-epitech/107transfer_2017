@@ -1,0 +1,6 @@
+#!/usr/bin/python3.6
+
+from parse import *
+
+tab = parse_all()
+print(tab)
