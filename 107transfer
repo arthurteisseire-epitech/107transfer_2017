@@ -3,5 +3,8 @@
 from parse import *
 from calc import *
 
-tab = parse_all()
-main_loop(tab, 0.001)
+try:
+    tab = parse_all()
+    main_loop(tab, 0.001)
+except:
+    exit(84)
